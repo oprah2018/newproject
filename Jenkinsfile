@@ -23,7 +23,7 @@ pipeline {
         stage('docker') {
             steps {
                 echo 'image step'
-                sleep 
+                sleep 1
             }
         }
     }
